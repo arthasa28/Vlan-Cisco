@@ -5,7 +5,7 @@
 
 
 <p align="center">
-  <img src="https://i.postimg.cc/NjqY4fCh/logo.jpg" alt="robotika smkn1 kotabekasi logo"/ style="height:350px;" "width: 350px;">
+  <img src="https://i.postimg.cc/k5Wybw63/logo.jpg" alt="Logo Artha"/ style="height:350px;" "width: 350px;">
 </p>
 
 
