@@ -35,6 +35,14 @@ To keep this collection up-to-date need contributors who can add more Program Ar
 
 # :moneybag: [Donate](https://saweria.co/arthasyarif)
 
+## :loud_sound: Keterangan
+
+- Config Dulu Switch Baru Router
+- Port 24 Untuk Router
+- Port 1 s/d Port 3 Untuk Vlan 10
+- Port 3 s/d Port 15 Untuk Vlan 20
+- Port 15 s/d Port 20 Untuk Vlan 30
+
 
 # :clipboard: Source Config Switch
 
