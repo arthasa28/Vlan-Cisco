@@ -42,6 +42,134 @@ To keep this collection up-to-date need contributors who can add more Program Ar
 
 Switch>en
 Switch#vlan database
+Switch(vlan)#vlan 10 name VLAN10
+VLAN 10 added:
+    Name: VLAN10
+Switch(vlan)#vlan 20 name VLAN20
+VLAN 20 added:
+    Name: VLAN20
+Switch(vlan)#vlan 30 name VLAN30
+VLAN 30 added:
+    Name: VLAN30
+Switch(vlan)#exit
+APPLY completed.
+Exiting....
+Switch#show vlan
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Fa0/1, Fa0/2, Fa0/3, Fa0/4
+                                                Fa0/5, Fa0/6, Fa0/7, Fa0/8
+                                                Fa0/9, Fa0/10, Fa0/11, Fa0/12
+                                                Fa0/13, Fa0/14, Fa0/15, Fa0/16
+                                                Fa0/17, Fa0/18, Fa0/19, Fa0/20
+                                                Fa0/21, Fa0/22, Fa0/23, Fa0/24
+10   VLAN10                           active    
+20   VLAN20                           active    
+30   VLAN30                           active    
+1002 fddi-default                     active    
+1003 token-ring-default               active    
+1004 fddinet-default                  active    
+1005 trnet-default                    active    
+
+VLAN Type  SAID       MTU   Parent RingNo BridgeNo Stp  BrdgMode Trans1 Trans2
+---- ----- ---------- ----- ------ ------ -------- ---- -------- ------ ------
+1    enet  100001     1500  -      -      -        -    -        0      0
+10   enet  100010     1500  -      -      -        -    -        0      0
+20   enet  100020     1500  -      -      -        -    -        0      0
+30   enet  100030     1500  -      -      -        -    -        0      0
+1002 fddi  101002     1500  -      -      -        -    -        0      0   
+1003 tr    101003     1500  -      -      -        -    -        0      0   
+1004 fdnet 101004     1500  -      -      -        ieee -        0      0   
+1005 trnet 101005     1500  -      -      -        ibm  -        0      0   
+
+VLAN Type  SAID       MTU   Parent RingNo BridgeNo Stp  BrdgMode Trans1 Trans2
+---- ----- ---------- ----- ------ ------ -------- ---- -------- ------ ------
+
+Remote SPAN VLANs
+------------------------------------------------------------------------------
+
+Primary Secondary Type              Ports
+------- --------- ----------------- ------------------------------------------
+
+Switch#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#int fa0/24
+Switch(config-if)#switchport mode trunk
+Switch(config-if)#no shut
+Switch(config-if)#int fa0/1
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 10
+Switch(config-if)#int fa0/2
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 10
+Switch(config-if)#int fa0/3
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 10
+
+
+Switch(config-if)#interface fa0/4
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 20
+
+Switch(config-if)#int fa0/5
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 20
+
+Switch(config-if)#int fa0/6
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 20
+
+Switch(config-if)#int fa0/7
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 20
+
+Switch(config-if)#int fa0/8
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 20
+
+Switch(config-if)#int fa0/9
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 20
+
+Switch(config-if)#int fa0/10
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 20
+
+Switch(config-if)#int fa0/11
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 20
+
+Switch(config-if)#int fa0/12
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 20
+
+Switch(config-if)#int fa0/13
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 20
+
+Switch(config-if)#int fa0/14
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 20
+
+Switch(config-if)#int fa0/15
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```
-
