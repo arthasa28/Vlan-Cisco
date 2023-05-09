@@ -36,7 +36,7 @@ To keep this collection up-to-date need contributors who can add more Program Ar
 # :moneybag: [Donate](https://saweria.co/arthasyarif)
 
 
-# :clipboard: Source Command
+# :clipboard: Source Config Switch
 
 ```bash
 
@@ -97,16 +97,26 @@ Enter configuration commands, one per line.  End with CNTL/Z.
 Switch(config)#int fa0/24
 Switch(config-if)#switchport mode trunk
 Switch(config-if)#no shut
+
+
+
+*** VLAN 10 ***
+
 Switch(config-if)#int fa0/1
 Switch(config-if)#switchport mode access
 Switch(config-if)#switchport access vlan 10
+
 Switch(config-if)#int fa0/2
 Switch(config-if)#switchport mode access
 Switch(config-if)#switchport access vlan 10
+
 Switch(config-if)#int fa0/3
 Switch(config-if)#switchport mode access
 Switch(config-if)#switchport access vlan 10
 
+
+
+*** VLAN 20 ***
 
 Switch(config-if)#interface fa0/4
 Switch(config-if)#switchport mode access
@@ -158,18 +168,68 @@ Switch(config-if)#switchport access vlan 20
 
 
 
+*** VLAN 30 ***
+
+Switch(config-if)#int fa0/16
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 30
+
+Switch(config-if)#int fa0/17
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 30
+
+Switch(config-if)#int fa0/18
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 30
+
+Switch(config-if)#int fa0/19
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 30
+
+Switch(config-if)#int fa0/20
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 30
+Switch(config-if)#end
+Switch#
+
+
+```
+
+
+# :clipboard: Source Config Router
+
+```bash
+
+         --- System Configuration Dialog ---
+
+Would you like to enter the initial configuration dialog? [yes/no]: n
+
+
+Press RETURN to get started!
 
 
 
+Router>en
+Router#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#int fa0/0
+Router(config-if)#no shutdown
 
+Router(config-if)#int fa0/0.10
 
+Router(config-subif)#
+Router(config-subif)#encapsulation ?
+Router(config-subif)#encapsulation dot1q 10
+Router(config-subif)#ip add 10.10.10.1 255.0.0.0
 
+Router(config-subif)#int fa0/0.20
+Router(config-subif)#encap dot1q 20
+Router(config-subif)#ip add 20.20.20.1 255.0.0.0
 
-
-
-
-
-
+Router(config-subuf)#int fa0/0.30
+Router(config-subif)#encap dot1q 30
+Router(config-subif)#ip add 30.30.30.1 255.0.0.0
+Router(config-subif)#end
 
 
 ```
