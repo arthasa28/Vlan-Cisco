@@ -31,7 +31,7 @@ To keep this collection up-to-date need contributors who can add more Program Ar
 
 
 <p align="center">
-  <img src="https://i.postimg.cc/k4Hk4pXs/Tabel1-Ip-1.png" alt="Contoh Artha"/ style="height:350px;" "width: 350px;">
+  <img src="https://github.com/arthasa28/Vlan-Cisco/blob/master/Tabel1%20Ip%201.png?raw=true" alt="Contoh Artha"/ style="height:350px;" "width: 350px;">
   </br>
   <img src="https://i.postimg.cc/dVTmPNzv/Tabel1-Ip-2.png" alt="Contoh Artha"/ style="height:350px;" "width: 350px;">
   
