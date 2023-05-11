@@ -31,7 +31,7 @@ To keep this collection up-to-date need contributors who can add more Program Ar
 
 
 <p align="center">
-  <img src="https://github.com/arthasa28/Vlan-Cisco/blob/master/Tabel1%20Ip%201.png?raw=true" alt="Contoh Artha"/ style="height:350px;" "width: 350px;">
+  <img src="https://gcdnb.pbrd.co/images/NDclSIaZcZRH.png?o=1" alt="Contoh Artha"/ style="height:350px;" "width: 350px;">
   </br>
   <img src="https://github.com/arthasa28/Vlan-Cisco/blob/master/Tabel1%20Ip%202.png?raw=true" alt="Contoh Artha"/ style="height:350px;" "width: 350px;">
   
