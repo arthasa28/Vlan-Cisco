@@ -33,7 +33,7 @@ To keep this collection up-to-date need contributors who can add more Program Ar
 <p align="center">
   <img src="https://gcdnb.pbrd.co/images/NDclSIaZcZRH.png?o=1" alt="Contoh Artha"/ style="height:350px;" "width: 350px;">
   </br>
-  <img src="https://github.com/arthasa28/Vlan-Cisco/blob/master/Tabel1%20Ip%202.png?raw=true" alt="Contoh Artha"/ style="height:350px;" "width: 350px;">
+  <img src="https://gcdnb.pbrd.co/images/WajBUuX3dwC9.png?o=1" alt="Contoh Artha"/ style="height:350px;" "width: 350px;">
   
 </p>
 
@@ -42,7 +42,7 @@ To keep this collection up-to-date need contributors who can add more Program Ar
 
 
 <p align="center">
-  <img src="https://github.com/arthasa28/Vlan-Cisco/blob/master/Vlan-Mode%203%20Switch%20&%201%20Router%20(%20BY.ARTHA%20).jpg.png?raw=true" alt="Contoh Artha"/ style="height:350px;" "width: 350px;">
+  <img src="https://gcdnb.pbrd.co/images/R8P49EJII92N.png?o=1" alt="Contoh Artha"/ style="height:350px;" "width: 350px;">
   
   
 </p>
