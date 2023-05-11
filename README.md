@@ -31,9 +31,9 @@ To keep this collection up-to-date need contributors who can add more Program Ar
 
 
 <p align="center">
-  <img src="https://i.postimg.cc/s2kYgPCS/Vlan-Mode-3-Switch-1-Router-BY-ARTHA-jpg.png" alt="Contoh Artha"/ style="height:350px;" "width: 350px;">
-  </br>
   <img src="https://i.postimg.cc/k4Hk4pXs/Tabel1-Ip-1.png" alt="Contoh Artha"/ style="height:350px;" "width: 350px;">
+  </br>
+  <img src="https://i.postimg.cc/dVTmPNzv/Tabel1-Ip-2.png" alt="Contoh Artha"/ style="height:350px;" "width: 350px;">
   
 </p>
 
