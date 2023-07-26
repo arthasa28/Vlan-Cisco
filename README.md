@@ -232,21 +232,21 @@ Press RETURN to get started!
 Router>en
 Router#conf t
 Enter configuration commands, one per line.  End with CNTL/Z.
-Router(config)#int fa0/0
+Router(config)#int gig0/0
 Router(config-if)#no shutdown
 
-Router(config-if)#int fa0/0.10
+Router(config-if)#int gig0/0.10
 
 Router(config-subif)#
 Router(config-subif)#encapsulation ?
 Router(config-subif)#encapsulation dot1q 10
 Router(config-subif)#ip add 10.10.10.1 255.0.0.0
 
-Router(config-subif)#int fa0/0.20
+Router(config-subif)#int gig0/0.20
 Router(config-subif)#encap dot1q 20
 Router(config-subif)#ip add 20.20.20.1 255.0.0.0
 
-Router(config-subuf)#int fa0/0.30
+Router(config-subuf)#int gig0/0.30
 Router(config-subif)#encap dot1q 30
 Router(config-subif)#ip add 30.30.30.1 255.0.0.0
 Router(config-subif)#end
